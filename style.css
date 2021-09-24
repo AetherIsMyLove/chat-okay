@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0
+  }
+  body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+  }
+  input{
+    width: 100%
+  }
+  h3{
+    text-align: center
+  }
+  .app{
+    grid-column: 2
+  }
+  #msg{
+   
+    border:1px solid black
+  }
+  ul{
+    list-style: none;
+  
+  }
